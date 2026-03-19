@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude auth:*)",
+      "Read(//c/Users/alex.lu/.claude/**)",
+      "Read(//c/Users/alex.lu/.config/claude/**)"
+    ]
+  }
+}
