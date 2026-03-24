@@ -207,4 +207,4 @@ pip install matplotlib
 python homework_1/homework_1_main.py
 ```
 
-執行時間約 2~3 分鐘，主要花費在 100 萬次搜尋模擬上。
+執行時間約數秒。雖然搜尋次數高達 100 萬次，但每次搜尋僅需數次陣列查找（平均 7~8 hops），加上 bisect 二分搜尋的高效率，整體運算量並不大。
